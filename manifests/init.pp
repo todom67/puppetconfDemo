@@ -8,7 +8,7 @@ class puppetconfdemo {
     ensure => directory,
   }
 
-  file { ' /contrived/path_to/secrets/thesearenotesecrets':
+  file { '/contrived/path_to/secrets/thesearenotesecrets':
     ensure  => file,
     content => 'ALL YOUR PUPPET ARE BELONG TO US!',
   }
